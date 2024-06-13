@@ -72,7 +72,7 @@ async function play(client, interaction) {
             const errorEmbed = new EmbedBuilder()
                 .setColor('#ff0000')
                 .setTitle('Error')
-                .setDescription('There are no results found.');
+                .setDescription('Không tìm thấy kết quả.');
 
             await interaction.editReply({ embeds: [errorEmbed] });
             return;
@@ -85,28 +85,28 @@ async function play(client, interaction) {
                 .setColor('#4d9fd6')
                 .setAuthor({
                     name: 'Request Update!',
-                    iconURL: 'https://cdn.discordapp.com/avatars/779507251282968587/551c11debd9c5c01f6704bb7442068a4.png?size=1024',
-                    url: 'https://discord.gg/VZK8nJ3MJX'
+                    iconURL: 'https://cdn.discordapp.com/attachments/1230824451990622299/1236794583732457473/7828-verify-ak.gif',
+                    url: 'https://discord.gg/xQF9f9yUEM'
                 })
-                .setDescription('➡️ **Make by Hoàng Anh | Godez Community | 2024**'),
+                 .setDescription('➡️ **Make by Hoàng Anh.**\n➡️** My Server : Godez Community | 2024 **')
 
             new EmbedBuilder()
                 .setColor('#ffea00')
                 .setAuthor({
                     name: 'Request Update!',
-                    iconURL: 'https://cdn.discordapp.com/avatars/779507251282968587/551c11debd9c5c01f6704bb7442068a4.png?size=1024',
-                    url: 'https://discord.gg/VZK8nJ3MJX'
+                    iconURL: 'https://cdn.discordapp.com/attachments/1230824451990622299/1236802032938127470/4104-verify-yellow.gif',
+                    url: 'https://discord.gg/xQF9f9yUEM'
                 })
-                .setDescription('➡️ **Make by Hoàng Anh | Godez Community | 2024**'),
+                 .setDescription('➡️ **Make by Hoàng Anh.**\n➡️** My Server : Godez Community | 2024 **')
 
             new EmbedBuilder()
                 .setColor('#FF0000')
                 .setAuthor({
                     name: 'Request Update!',
-                    iconURL: 'https://cdn.discordapp.com/avatars/779507251282968587/551c11debd9c5c01f6704bb7442068a4.png?size=1024',
-                    url: 'https://discord.gg/VZK8nJ3MJX'
+                    iconURL: 'https://cdn.discordapp.com/attachments/1230824451990622299/1236802049190920202/4104-verify-red.gif',
+                    url: 'https://discord.gg/xQF9f9yUEM'
                 })
-                .setDescription('➡️ **Make by Hoàng Anh | Godez Community | 2024**')
+                .setDescription('➡️ **Make by Hoàng Anh.**\n➡️** My Server : Godez Community | 2024 **')
         ];
 
         const randomIndex = Math.floor(Math.random() * embeds.length);
@@ -125,11 +125,11 @@ async function play(client, interaction) {
 
 module.exports = {
     name: "play",
-    description: "Phát Nhạc",
+    description: "Add options too",
     permissions: "0x0000000000000800",
     options: [{
         name: 'name',
-        description: 'nhập tên bài hát hoặc link bài hát',
+        description: 'Enter song name / link or playlist',
         type: ApplicationCommandOptionType.String,
         required: true
     }],
