@@ -88,7 +88,7 @@ async function play(client, interaction) {
                     iconURL: 'https://cdn.discordapp.com/attachments/1230824451990622299/1236794583732457473/7828-verify-ak.gif',
                     url: 'https://discord.gg/xQF9f9yUEM'
                 })
-                 .setDescription('➡️ **Make by Hoàng Anh.**\n➡️** My Server : Godez Community | 2024 **')
+                 .setDescription('➡️ **Make by Hoàng Anh.**\n➡️** My Server : Godez Community | 2024 **'),
 
             new EmbedBuilder()
                 .setColor('#ffea00')
@@ -97,7 +97,7 @@ async function play(client, interaction) {
                     iconURL: 'https://cdn.discordapp.com/attachments/1230824451990622299/1236802032938127470/4104-verify-yellow.gif',
                     url: 'https://discord.gg/xQF9f9yUEM'
                 })
-                 .setDescription('➡️ **Make by Hoàng Anh.**\n➡️** My Server : Godez Community | 2024 **')
+                 .setDescription('➡️ **Make by Hoàng Anh.**\n➡️** My Server : Godez Community | 2024 **'),
 
             new EmbedBuilder()
                 .setColor('#FF0000')
