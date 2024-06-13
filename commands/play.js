@@ -86,7 +86,7 @@ async function play(client, interaction) {
                 .setAuthor({
                     name: 'Request Update!',
                     iconURL: 'https://cdn.discordapp.com/avatars/779507251282968587/551c11debd9c5c01f6704bb7442068a4.png?size=1024',
-                    url: ''
+                    url: 'https://discord.gg/VZK8nJ3MJX'
                 })
                 .setDescription('➡️ **Make by Hoàng Anh | Godez Community | 2024**'),
 
@@ -95,7 +95,7 @@ async function play(client, interaction) {
                 .setAuthor({
                     name: 'Request Update!',
                     iconURL: 'https://cdn.discordapp.com/avatars/779507251282968587/551c11debd9c5c01f6704bb7442068a4.png?size=1024',
-                    url: ''
+                    url: 'https://discord.gg/VZK8nJ3MJX'
                 })
                 .setDescription('➡️ **Make by Hoàng Anh | Godez Community | 2024**'),
 
@@ -104,7 +104,7 @@ async function play(client, interaction) {
                 .setAuthor({
                     name: 'Request Update!',
                     iconURL: 'https://cdn.discordapp.com/avatars/779507251282968587/551c11debd9c5c01f6704bb7442068a4.png?size=1024',
-                    url: ''
+                    url: 'https://discord.gg/VZK8nJ3MJX'
                 })
                 .setDescription('➡️ **Make by Hoàng Anh | Godez Community | 2024**')
         ];
